@@ -1,0 +1,13 @@
+﻿<Application
+    x:Class="MVVM.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="using:MVVM.ValueConverter"
+    xmlns:local="using:MVVM"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <converter:ItemConverter x:Key="converter"/>
+    </Application.Resources>
+
+</Application>
